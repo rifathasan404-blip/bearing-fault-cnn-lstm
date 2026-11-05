@@ -1,0 +1,26 @@
+.venv
+practice.ipynb
+
+
+
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.DS_Store
+
+# CWRU raw data
+data/raw/*.mat
+data/raw/*.part
+
+# Generated preprocessing outputs
+data/processed/*
+!data/processed/.gitkeep
+
+# Large training artifacts
+models/*.h5
+models/*.keras
+models/*.pt
+models/*.pth
+logs/
